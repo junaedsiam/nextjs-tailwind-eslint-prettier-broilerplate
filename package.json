@@ -1,20 +1,28 @@
 {
-  "name": "with-tailwindcss",
+  "name": "nextjs-tailwind-broilerplate",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "lint": "eslint --ext js,jsx --fix"
   },
   "dependencies": {
-    "next": "latest",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "next": "^10.1.3",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
   },
   "devDependencies": {
-    "autoprefixer": "^10.0.4",
-    "postcss": "^8.1.10",
+    "autoprefixer": "^10.2.5",
+    "eslint": "^7.24.0",
+    "eslint-config-prettier": "^8.2.0",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-prettier": "^3.4.0",
+    "eslint-plugin-react": "^7.23.2",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "postcss": "^8.2.10",
+    "prettier": "^2.2.1",
     "tailwindcss": "^2.1.1"
   }
 }
